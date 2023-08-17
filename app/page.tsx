@@ -1,8 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import HomePage from '@/pages/home'
 
 const App = () => {
-	return <div>app</div>
+	return <HomePage />
 }
 
 export default App

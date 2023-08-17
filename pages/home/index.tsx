@@ -1,10 +1,9 @@
+import Home from '@/src/pages/home/home'
 import React from 'react'
-import PropTypes from 'prop-types'
+import { API_KEY } from '@/src/constants/index'
 
-const Home = () => {
-	return <div>Home sjdfhsd s</div>
+const HomePage = () => {
+	return <Home />
 }
 
-Home.propTypes = {}
-
-export default Home
+export default HomePage
